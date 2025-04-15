@@ -1,0 +1,67 @@
+import glob
+from shutil import copy2
+from datetime import date  # extract only date from datetime function
+import os
+import fnmatch
+import csv
+import ctypes
+
+# Check for .csv file and remove old file
+
+path = r'D:\copy'
+extension = '.csv'
+
+for root, dirs_list, files_list in os.walk(path):
+    for file_name in files_list:
+        if os.path.splitext(file_name)[-1] == extension:
+            file_name_path = os.path.join(root, file_name)
+            os.remove(file_name_path)
+            print('\n File removed :', file_name)
+        else:
+            print('File not removed')
+
+# Copying .csv file from one directory to another
+
+source_dir = (r'C:\Users\sathegde\Desktop\test')  # Path where your files are at the moment
+dst = (r'D:\copy')  # Path you want to move your files to
+files = glob.iglob(os.path.join(source_dir, "*.csv"))
+for file in files:
+    if os.path.isfile(file):
+        copy2(file, dst)
+        print('\n The CSV file %s  is successfuly copied' % (file))
+    else:
+        print("not success")
+
+# Rename the csv file to today sys date
+
+os.chdir(r'D:\copy')
+# date.today display the current sysdate
+today = str(date.today())
+# list all the files from current directory i.e C:\Users\abmahali\Desktop\test
+for filename in os.listdir('.'):
+    # check all the files in directory which ends with .csv
+    if filename.endswith('.csv'):
+        # os.rename(actual_name,new_name) changes to new name
+        os.rename(filename, today + '.csv')
+        # prints success if renamed
+        print("\n File rename success")
+
+# Row count in csv file
+
+path = r'D:\copy'
+# os.listdir function list all the files in the given path
+for file in os.listdir(path):
+    # fmatch matches all the files that end with .csv in the given path
+    if fnmatch.fnmatch(file, '*.csv'):
+        # Join one or more path and the return value is the concatenation of path
+        # open(filename,mode) used to open the given file or path and read
+        file_name_path = open(os.path.join(path, file), 'r+')
+        # csv.reader used to read all lines from .csv file for the given path or file
+        reader_file = csv.reader(file_name_path)
+        # value returns the row count in csv file
+        value = (len(list(reader_file)) - 1)
+        # print the row count and file name
+        print('\n No. Of. Rows in %s  is %d ' % (file, value))
+        # print(f'\n No. Of. Rows in {file} is {value:d} ') another way to print
+        # ctypes messagebox used to display result in a dialogue box
+        ctypes.windll.user32.MessageBoxW(0, "           Number of Rows : " + str(value), "Row Count", 1)

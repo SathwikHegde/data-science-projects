@@ -1,0 +1,1 @@
+C:\Users\sathegde\PycharmProjects\untitled\venv\Scripts\python.exe C:\Users\sathegde\Desktop\test\date\date.py

@@ -1,0 +1,1 @@
+C:\Users\abmahali\PycharmProjects\untitled\venv\Scripts\python.exe  C:\Users\abmahali\Desktop\test\count\count.py
