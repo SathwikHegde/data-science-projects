@@ -1,5 +1,5 @@
 import os
-path = (r'C:\Users\sathegde\Desktop\Resume')
+path = (r'csv_data_pipeline\data\output files\dataset.csv')
 extension = '.csv'
 
 for root, dirs_list, files_list in os.walk(path):

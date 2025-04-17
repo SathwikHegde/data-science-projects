@@ -2,7 +2,7 @@ from datetime import date   #extract only date from datetime function
 import os
 
 #changing the default directory to another path
-os.chdir(r'C:\Users\sathegde\Desktop\test')
+os.chdir(r'csv_data_pipeline\data\source files')
 #date.today display the current sysdate
 today = str(date.today())
 #list all the files from current directory i.e C:\Users\sathegde\Desktop\test

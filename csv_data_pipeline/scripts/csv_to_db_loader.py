@@ -4,7 +4,7 @@ import csv
 
 con = cx_Oracle.connect('')
 cur = con.cursor()
-with open(r"C:\Users\sathegde\Desktop\test\dataset.csv", "r") as csv_file:
+with open(r"csv_data_pipeline\data\output files\dataset.csv", "r") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     next(csv_reader)
     for lines in csv_reader:
