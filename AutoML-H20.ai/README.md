@@ -1,12 +1,12 @@
 # Employee Future Prediction using AutoML
 
-## 📌 Overview
+## Overview
 
 This project predicts the **future employment status of employees** using an **AutoML framework**. The goal is to analyze employee-related attributes and identify factors contributing to their potential resignation or retention. The project leverages the power of automated machine learning for optimal model selection and tuning.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Predict whether an employee is likely to leave or continue working at a company based on historical employee data, including attributes such as:
 
@@ -21,7 +21,7 @@ Predict whether an employee is likely to leave or continue working at a company 
 
 ---
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 
 - Python
 - Pandas, NumPy, Matplotlib, Seaborn
@@ -31,7 +31,7 @@ Predict whether an employee is likely to leave or continue working at a company 
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Handled missing values
 - Categorical encoding
@@ -40,7 +40,7 @@ Predict whether an employee is likely to leave or continue working at a company 
 
 ---
 
-## 🤖 Modeling
+## Modeling
 
 - Leveraged **AutoML** to automatically select the best-performing model
 - Compared results across multiple classification algorithms (e.g., Logistic Regression, Random Forest, XGBoost, etc.)
@@ -52,7 +52,7 @@ Predict whether an employee is likely to leave or continue working at a company 
 
 ---
 
-## 📈 Results
+## Results
 
 - AutoML framework selected the best model based on validation performance
 - Identified key drivers for employee attrition
@@ -60,7 +60,7 @@ Predict whether an employee is likely to leave or continue working at a company 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Employee-Future-Prediction/
@@ -72,7 +72,7 @@ Employee-Future-Prediction/
 
 ---
 
-## 📌 Disclaimer
+## Disclaimer
 
 This project is for educational purposes and uses synthetic or publicly available datasets. No confidential employee data is used.
 
