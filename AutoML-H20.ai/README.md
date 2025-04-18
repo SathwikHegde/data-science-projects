@@ -1,26 +1,83 @@
-#  AutoML H20.ai– Employee Future Prediction
+# Employee Future Prediction using AutoML
 
-### Build an AutoML library like H2O.ai to create predictive models and interpret them. Find a significant relation for each algorithm of the data. Create multivariate models.
+## 📌 Overview
 
-While creating our model using AutoML and answer the following questions. We make use of Tables, graphs, and charts must support your evaluation 
+This project predicts the **future employment status of employees** using an **AutoML framework**. The goal is to analyze employee-related attributes and identify factors contributing to their potential resignation or retention. The project leverages the power of automated machine learning for optimal model selection and tuning.
 
+---
 
-1) Is the relationship significant?
+## 🎯 Objective
 
-2) Is the relationship significant?
+Predict whether an employee is likely to leave or continue working at a company based on historical employee data, including attributes such as:
 
-3) Are any model assumptions violated?
+- Age
+- Department
+- Salary
+- Tenure
+- Job Satisfaction
+- Work-life balance
+- Promotion history
+- Performance ratings
 
-4) Is there any multicollinearity in the model?
+---
 
-5) In the multivariate models are predictor variables independent of all the other predictor variables?
+## ⚙️ Tools & Technologies
 
-6) In in multivariate models rank the most significant predictor variables and exclude insignificant ones from the model.
+- Python
+- Pandas, NumPy, Matplotlib, Seaborn
+- AutoML Framework (PyCaret or H2O AutoML)
+- Scikit-learn
+- Jupyter Notebook
 
-7) Does the model make sense?
+---
 
-8) Does regularization help?
+## 🧹 Data Preprocessing
 
-9) Which independent variables are significant?
+- Handled missing values
+- Categorical encoding
+- Feature scaling and normalization
+- Exploratory Data Analysis (EDA) to understand employee patterns
 
-10) Which hyperparameters are important?
+---
+
+## 🤖 Modeling
+
+- Leveraged **AutoML** to automatically select the best-performing model
+- Compared results across multiple classification algorithms (e.g., Logistic Regression, Random Forest, XGBoost, etc.)
+- Evaluated model performance using:
+  - Accuracy
+  - Precision / Recall
+  - Confusion Matrix
+  - AUC Score
+
+---
+
+## 📈 Results
+
+- AutoML framework selected the best model based on validation performance
+- Identified key drivers for employee attrition
+- Model helps HR departments proactively identify potential resignations
+
+---
+
+## 📂 Project Structure
+
+```
+Employee-Future-Prediction/
+│
+├── Employee_future_prediction_using_AutoML.ipynb  # Main notebook
+├── README.md                                      # Project overview
+├── .gitignore                                     # Files to ignore in Git
+```
+
+---
+
+## 📌 Disclaimer
+
+This project is for educational purposes and uses synthetic or publicly available datasets. No confidential employee data is used.
+
+---
+
+## 👤 Author
+
+**Sathwik Hegde**

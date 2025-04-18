@@ -1,0 +1,32 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pkl
+*.joblib
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Output and logs
+*.log
+*.out
+
+# IDE specific
+.vscode/
+.idea/
