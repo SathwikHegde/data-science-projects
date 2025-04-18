@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files (add real dataset filenames if available)
+*.csv
+*.xlsx
+
+# Output files
+*.log
+*.out
+*.bak
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Presentation and report files
+*.pptx
+
+# Ignore model files
+*.pkl
+*.joblib
