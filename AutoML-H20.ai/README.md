@@ -78,6 +78,6 @@ This project is for educational purposes and uses synthetic or publicly availabl
 
 ---
 
-## 👤 Author
+## Author
 
 **Sathwik Hegde**
