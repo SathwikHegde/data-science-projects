@@ -1,13 +1,70 @@
-# Model Interpretability
+# Model Interpretability in Machine Learning
 
-Interpret your models.
+## Overview
 
-1. Fit a linear model and interpret the regression coefficients
+This project explores key techniques for making machine learning models more **interpretable** and **explainable**. With the growing use of black-box models like ensemble methods and neural networks, model transparency becomes critical in industries such as healthcare, finance, and law.
 
-2. Fit a tree-based model and interpret the nodes
+---
 
-3. Use auto ml to find the best model
+## Objective
 
-4. Run SHAP analysis on the models from steps 1, 2, and 3
+Provide insights into **why** a model made certain predictions using various interpretability techniques. This helps build trust with stakeholders and aligns models with ethical and legal standards.
 
-5. Interpret the SHAP values and compare them with the other model interpretability methods
+---
+
+## Key Techniques Covered
+
+- **Global Interpretability**:
+  - Feature Importance
+  - Permutation Importance
+  - Partial Dependence Plots (PDP)
+  - SHAP (SHapley Additive exPlanations)
+  - LIME (Local Interpretable Model-Agnostic Explanations)
+
+- **Local Interpretability**:
+  - SHAP values for individual predictions
+  - LIME explanations for specific cases
+  - Decision plots and waterfall plots
+
+---
+
+## Tools & Libraries
+
+- Python
+- Scikit-learn
+- SHAP
+- LIME
+- Matplotlib, Seaborn
+- Pandas, NumPy
+
+---
+
+## Results
+
+- Visualizations for SHAP summary plots, force plots, and dependence plots
+- Case-based explanation using LIME and SHAP
+- Enhanced understanding of how features impact individual predictions
+
+---
+
+## Project Structure
+
+```
+Model-Interpretability/
+│
+├── Model_Interpretability.ipynb   # Main notebook
+├── README.md                      # Project summary
+├── .gitignore                     # Files to exclude from Git
+```
+
+---
+
+## Disclaimer
+
+The project uses open-source datasets and is intended for educational purposes only. It does not contain any proprietary or sensitive information.
+
+---
+
+## Author
+
+**Sathwik Hegde**
