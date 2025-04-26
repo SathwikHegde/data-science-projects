@@ -1,12 +1,12 @@
 # Water Quality Prediction using Machine Learning
 
-## 📌 Overview
+## Overview
 
 This project focuses on predicting the **potability of water** based on its physicochemical properties. Using machine learning, we assess whether water is safe for human consumption by analyzing key water quality indicators.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Build a model to classify water as **potable** or **non-potable** using attributes such as:
 - pH level
@@ -21,7 +21,7 @@ Build a model to classify water as **potable** or **non-potable** using attribut
 
 ---
 
-## ⚙️ Tools & Libraries
+## Tools & Libraries
 
 - Python
 - Pandas, NumPy
@@ -31,7 +31,7 @@ Build a model to classify water as **potable** or **non-potable** using attribut
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Missing value imputation
 - Outlier treatment
@@ -41,7 +41,7 @@ Build a model to classify water as **potable** or **non-potable** using attribut
 
 ---
 
-## 🤖 Modeling Techniques
+## Modeling Techniques
 
 - Logistic Regression
 - Random Forest
@@ -55,7 +55,7 @@ Build a model to classify water as **potable** or **non-potable** using attribut
 
 ---
 
-## 📈 Results
+## Results
 
 - Identified top-performing model for potability prediction
 - Interpreted feature importance to explain key water quality drivers
@@ -63,7 +63,7 @@ Build a model to classify water as **potable** or **non-potable** using attribut
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Water-Quality-Prediction/
@@ -75,12 +75,12 @@ Water-Quality-Prediction/
 
 ---
 
-## 🛡️ Disclaimer
+## Disclaimer
 
 This project is for educational purposes and uses publicly available datasets. It should not replace lab-based water testing or professional environmental assessment.
 
 ---
 
-## 👤 Author
+## Author
 
 **Sathwik Hegde**

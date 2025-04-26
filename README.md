@@ -1,6 +1,7 @@
 # Data Science Projects
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains a collection of my data science projects. Each project explores different aspects of data analysis, machine learning, and data visualization.
 
 ## Table of Contents
@@ -26,112 +27,126 @@ This repository serves as a portfolio of my data science skills and a place to s
 * **Machine Learning:** Implementing and evaluating various machine learning algorithms (e.g., classification, regression, clustering).
 * **Automated Machine Learning (AutoML):** Utilizing frameworks for efficient model building.
 * **Model Interpretability:** Understanding and explaining the predictions of machine learning models.
+* **Data Engineering Pipelines:** Automating structured data ingestion and processing.
 
 ## Projects
 
 This section provides a brief overview of the projects included in this repository. Click on the project name to navigate to its dedicated directory for more detailed information and code.
 
-* **[American-Express-Default-Prediction](American-Express-Default-Prediction/)**
-    * **Description:** 
-    * **Key Technologies:** 
-* **[AutoML-H20.ai](AutoML-H20.ai/)**
-    * **Description:** 
-    * **Key Technologies:** 
-* **[ML-Data-Cleaning-and-Feature-Selection](ML-Data-Cleaning-and-Feature-Selection/)**
-    * **Description:** (
-    * **Key Technologies:** 
-* **[Model-Interpretability](Model-Interpretability/)**
-    * **Description:**
-    * **Key Technologies:** 
-* **[Neural-Network-Type-Classification-Typeface-M](Neural-Network-Type-Classification-Typeface-M/)**
-    * **Description:** 
-    * **Key Technologies:** 
-* **[Patient-Treatment-Prediction](Patient-Treatment-Prediction/)**
-    * **Description:** 
-    * **Key Technologies:**
-* **[Water-Quality-Prediction](Water-Quality-Prediction/)**
-    * **Description:**
-    * **Key Technologies:**
-* **[k-means-clustering](k-means-clustering/)**
-    * **Description:** 
-    * **Key Technologies:**
+* **[American-Express-Default-Prediction](American-Express-Default-Prediction/)**  
+  Predict credit card payment defaults using customer profiles.  
+  *Key Technologies:* XGBoost, RandomForest, PCA, Hyperparameter Tuning
 
-**Note:** Each project directory should contain its own README file (`README.md`) with more specific details about the project, including the problem statement, methodology, datasets used, results, and instructions for running the code.
+* **[AutoML-H20.ai](AutoML-H20.ai/)**  
+  Leverage H2O AutoML for automated machine learning pipelines.  
+  *Key Technologies:* H2O.ai, Leaderboard, AutoML Frameworks
+
+* **[ML-Data-Cleaning-and-Feature-Selection](ML-Data-Cleaning-and-Feature-Selection/)**  
+  Techniques for preprocessing and selecting important features.  
+  *Key Technologies:* SelectKBest, RFE, Feature Importance
+
+* **[Model-Interpretability](Model-Interpretability/)**  
+  Tools to explain model predictions using SHAP and LIME.  
+  *Key Technologies:* SHAP, LIME, Permutation Importance
+
+* **[Neural-Network-Type-Classification-Typeface-M](Neural-Network-Type-Classification-Typeface-M/)**  
+  Neural network to classify handwritten typefaces.  
+  *Key Technologies:* TensorFlow, Keras, Deep Learning
+
+* **[Patient-Treatment-Prediction](Patient-Treatment-Prediction/)**  
+  Predict patient response to treatments using clinical features.  
+  *Key Technologies:* RandomForest, Logistic Regression, XGBoost
+
+* **[Water-Quality-Prediction](Water-Quality-Prediction/)**  
+  Classify potable vs non-potable water samples using physicochemical attributes.  
+  *Key Technologies:* SVM, Logistic Regression, RandomForest
+
+* **[k-means-clustering](k-means-clustering/)**  
+  Customer segmentation using unsupervised learning (KMeans).  
+  *Key Technologies:* KMeans, Silhouette Score, Elbow Method
+
+* **[csv_data_pipeline](csv_data_pipeline/)**  
+  A Python-based pipeline to automate CSV file copying, renaming, and row counting with GUI-based interaction.  
+  *Key Technologies:* Python, Tkinter, Pandas
 
 ## Getting Started
 
-This section outlines the general steps to get started with exploring the projects in this repository. Specific instructions for individual projects might be found in their respective README files.
+This section outlines general steps to get started exploring the projects in this repository. Project-specific instructions are available in each project's README.
 
 ### Prerequisites
 
-Before you can run the code in these projects, you might need to have the following software installed on your system:
+Install the following tools:
 
-* **Python 3.x:** The primary programming language used.
-* **pip:** Python package installer.
-* **Jupyter Notebook or JupyterLab (Optional but recommended):** For running and interacting with the notebooks.
+- **Python 3.x**  
+- **pip** (Python package installer)  
+- **Jupyter Notebook or JupyterLab** (recommended for running notebooks)
 
-You may also need to install specific Python libraries depending on the project. These dependencies are usually listed in a `requirements.txt` file within each project directory.
+Install project-specific libraries listed in the corresponding `requirements.txt` file where applicable.
 
 ### Installation
 
-1.  **Clone the repository:**
+1. Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://www.google.com/search?q=https://github.com/SathwikHegde/data-science-projects.git)
-    ```
-    
-2.  **Navigate to the repository directory:**
-    ```bash
-    cd YOUR_REPOSITORY_NAME
+    git clone https://github.com/SathwikHegde/data-science-projects.git
     ```
 
-3.  **(Optional) Set up a virtual environment (recommended):**
+2. Navigate to the repository:
+    ```bash
+    cd data-science-projects
+    ```
+
+3. (Optional) Create and activate a virtual environment:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On macOS and Linux
-    venv\Scripts\activate  # On Windows
+    source venv/bin/activate   # On macOS/Linux
+    venv\Scripts\activate    # On Windows
     ```
 
-4.  **Install dependencies for a specific project:**
-    Navigate to the project's directory (e.g., `cd American-Express-Default-Prediction`) and install the required libraries using `pip`:
+4. Install project dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-    (If a `requirements.txt` file exists in that project's directory.)
 
 ## Usage
 
-To run the code for a specific project:
+- Navigate to the project's directory
+- Open the Jupyter Notebook or run the scripts
+- Follow specific project instructions in the README files
 
-1.  Navigate to the project's directory.
-2.  Look for a Jupyter Notebook (`.ipynb` file) or a Python script (`.py` file) that serves as the main entry point for the project.
-3.  **For Jupyter Notebooks:**
-    ```bash
-    jupyter notebook  # Or jupyter lab
-    ```
-    Then, open the desired notebook in your browser and run the cells.
-4.  **For Python scripts:**
-    ```bash
-    python main_script.py  # Replace 'main_script.py' with the actual script name
-    ```
-
-Refer to the individual project's README file for more detailed instructions and explanations.
+Example:
+```bash
+cd American-Express-Default-Prediction
+jupyter notebook
+```
 
 ## Contributing
 
-Contributions to this repository are welcome! If you have suggestions, find issues, or want to add your own data science projects, feel free to:
+Contributions are welcome! Here's how you can contribute:
 
-1.  Fork the repository.
-2.  Create a new branch for your contributions (`git checkout -b feature/your-contribution`).
-3.  Make your changes and commit them (`git commit -am 'Add your contribution'`).
-4.  Push to the branch (`git push origin feature/your-contribution`).
-5.  Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-contribution
+    ```
+3. Make your changes and commit:
+    ```bash
+    git commit -am "Added new feature"
+    ```
+4. Push to your branch:
+    ```bash
+    git push origin feature/your-contribution
+    ```
+5. Submit a pull request.
 
-Please ensure that your contributions are well-documented and follow good coding practices.
+Please ensure code is well-documented and formatted properly.
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). See the `LICENSE` file for more details.
+This repository is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-You can reach me at satwikhegde14@gmail.com or through my [(https://www.linkedin.com/in/sathwikhegde/)]
+Feel free to connect or reach out:
+
+- **Email:** satwikhegde14@gmail.com  
+- **LinkedIn:** [https://www.linkedin.com/in/sathwikhegde/](https://www.linkedin.com/in/sathwikhegde/)
